@@ -552,6 +552,7 @@ export class DayViewComponent implements ICalendarComponent, OnInit, OnChanges, 
             this.sliderOptions = {};
         }
         this.sliderOptions.loop = true;
+        this.sliderOptions.cssMode = true;
         this.sliderOptions.allowSlidePrev = !this.lockSwipeToPrev;
         this.sliderOptions.allowSlideNext = !this.lockSwipeToNext;
         this.sliderOptions.allowTouchMove = !this.lockSwipes;
